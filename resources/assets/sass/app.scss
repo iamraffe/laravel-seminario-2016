@@ -289,38 +289,59 @@ img.logo-seminario{
     /* PROGRAMA */
 .programa-seminario{
   padding-bottom: 50px;
+  
+  .program-entry{
+    padding-bottom: 15px;
+  }
+
   p{
     margin: 0;
-    font-size: 1em;
+    font-size: 0.85em;
     font-weight: 300;
+
     &.ponente-name{
       font-weight: 500;
     }
-  }
-  .programa-header{
 
-    .program-time{
-      position: relative;
-      @media (min-width: 769px){
-        min-height: 40px;
-      }
-      p{
-        height: auto;
-        position: absolute;
-        bottom: 0; top: 0; left: 0; right: 0;
-        @media (max-width: 769px){
-         position:relative;
-        }
+    text-align: left;
+  }
+
+  .programa-header{
+    margin-top: 10px;
+  }
+
+  .program-time{
+    position: relative;
+
+    // @media (min-width: 769px){
+    //   min-height: 40px;
+    // }
+
+    p{
+      height: auto;
+      // position: absolute;
+      // bottom: 0; top: 0; left: 0; right: 0;
+      text-align: center;
+
+      @media (max-width: 769px){
+       position:relative;
       }
     }
+
   }
+
+
 
   .programa-subtitle{
     margin-top: 5px; 
+    text-align: left;
+
     @media (max-width: 768px){
-      @extend .center;
+      text-align: center;
     }    
+
   }
+
   ul.lista-ponentes{
     border-top: 1px solid white;
     margin-top: 5px;
@@ -332,24 +353,30 @@ img.logo-seminario{
     } 
   }
   .program-event{
+    p{
+      font-weight: 600;
+    }
+    @media (min-width: 769px){
+      border-left: 1px solid white;
+    }
+
     @media (max-width: 1023px){
       @extend .center;
     }
   }
 }
+  .program-time{
+
+    & > p{
+      font-weight: bold;
+    }
+  }
 .green-background{
   background: $aqua;
   color: white;
   font-weight: bold;
 
-  &.program-time{
-    @media (min-width: 769px){
-      border-right: 1px solid white;
-    }
-    & > p{
-      font-weight: bold;
-    }
-  }
+
 }
 
 

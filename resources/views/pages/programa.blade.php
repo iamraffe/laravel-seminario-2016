@@ -13,184 +13,154 @@ Nos centraremos en las estrategias y los programas para mejorar la calidad y la 
   <li><a href="/"><span class="fa fa-home aqua"></span></a></li>
   <li><span class="fa fa-th-list"></span> Programa</li>
 </ul>
-<div class="row">
-  <div class="col-sm-10hcol-sm-offset-1 programa-seminario">
-        <div class="row">
-            <div class="col-md-3 program-time center green-background">
-                <p>8:30h- 9:00h</p>
+<div class="row ">
+  <div class="col-sm-10 col-sm-offset-1 programa-seminario">
+        <div class="row programa-header green-background">
+            <div class="col-md-3 program-time center ">
+                <p>8:30h - 9:00h</p>
             </div>
-            <div class="col-md-9 green-background program-event">
+            <div class="col-md-9 program-event">
                 <p>Acreditaciones</p>
             </div>  
         </div>
-        <div class="row margin-top-10">
-            <div class="col-md-3 program-time center green-background">
-                <p>9:00h- 9:30h</p>
+        <div class="row programa-header green-background">
+            <div class="col-md-3 program-time center">
+                <p>9:00h - 9:30h</p>
             </div>
-            <div class="col-md-9 green-background program-event">
+            <div class="col-md-9 program-event">
                 <p>Bienvenida, introducción y presentación de la Jornada</p>
             </div>  
         </div>
-        <div class="row light-gray-background">
+        <div class="row light-gray-background program-entry">
             <div class="col-md-9 col-md-offset-3 ">
                 <p class="programa-subtitle">Ponentes</p>
                 <ul class="lista-ponentes">
                     <li>
-                        <p class="ponente-name">Dr. D. Víctor Madera Núñez</p>
-                        <p>Presidente, IDCsalud-Quirón.</p>
+                        <p class="ponente-name">D. Juan Antonio Álvaro de la Parra</p>
+                        <p>Director del Hospital Universitario Fundación Jiménez Díaz. Quirónsalud.</p>
                     </li>
                     <li>
-                        <p class="ponente-name">D. Juan Antonio Álvaro de la Parra</p>
-                        <p>Director de hospitales públicos de Madrid, IDCsalud-Quirón.</p>
+                        <p class="ponente-name">Dra. Leticia Moral Iglesias</p>
+                        <p>Directora Corporativa de Asistencia, Calidad e Innovación. Quirónsalud.</p>
                     </li>
                     <li>
                         <p class="ponente-name">Dr. D. Raimon Belenes Juárez</p>
-                        <p>Director corporativo de innovación, investigación y calidad, IDCsalud-Quirón.</p>
+                        <p>Director del Seminario Internacional de Seguridad del Paciente y Excelencia Clinica de Quirónsalud.</p>
                     </li>
                 </ul>
             </div>  
         </div>  
 
-        <div class="row programa-header margin-top-10">
-            <div class="col-md-3 program-time center green-background">
-                <p>9:30h- 10:30h</p>
+        <div class="row programa-header green-background">
+            <div class="col-md-3 program-time center">
+                <p>9:30h  - 10:30h</p>
             </div>
-            <div class="col-md-9 green-background program-event">
+            <div class="col-md-9 program-event">
                 <p>1a Conferencia</p>
-                <p>Enfoque proactivo en seguridad del paciente y atención de calidad</p>
+                <p>Una sanidad más segura; estrategias para el mundo real</p>
             </div>  
         </div>
-        <div class="row light-gray-background">
+        <div class="row light-gray-background program-entry">
             <div class="col-md-9 col-md-offset-3">
                 <p class="programa-subtitle">Ponente</p>
                 <ul class="lista-ponentes">
                     <li>
-                        <p class="ponente-name">Dr. Stephen McAdam</p>
-                        <p>Director técnico de cuidado global de la salud en DNV GL. Noruega.</p>
+                        <p class="ponente-name">Dr. Charles Vincent</p>
+                        <p>Profesor de psicología en la Universidad de Oxford e Investigador Senior en el National Institute of Health Research Centre.</p>
+                        <p>Fue director del National Institute of Health Research Centre for Patient Safety &amp; Service Quality del Imperial College de Londres. Reino Unido.</p>
                     </li>
                 </ul>
-                <p>Presenta la <span class="bold">Dra. Dña. Celia García Menéndez</span>. Directora de calidad y seguridad del paciente de IDCsalud-Quirón.</p>
+                <p>Presenta el <span class="bold">Dr. Javier Guerra Blanco</span>, Director Médico del Hospital Universitario Fundación Jiménez Díaz. Quirónsalud.</p>
             </div>  
         </div>
 
-        <div class="row programa-header margin-top-10">
-            <div class="col-md-3 program-time center green-background">
-                <p>10:30h- 11:30h</p>
+        <div class="row programa-header green-background">
+            <div class="col-md-3 program-time center">
+                <p>10:30h - 11:30h</p>
             </div>
-            <div class="col-md-9 green-background program-event">
+            <div class="col-md-9 program-event">
                 <p>2a Conferencia</p>
-                <p>Promover la seguridad como una estrategia frente al despilfarro</p>
+                <p>Nadie es perfecto: La transparencia mejora la seguridad del paciente</p>
             </div>  
         </div>
-        <div class="row light-gray-background">
+        <div class="row light-gray-background program-entry">
             <div class="col-md-9 col-md-offset-3 ">
                 <p class="programa-subtitle">Ponente</p>
                 <ul class="lista-ponentes">
                     <li>
-                        <p class="ponente-name">Dr. Johan Van Eldere</p>
-                        <p>Catedrático de Microbiología en la Universidad Católica de Leuven y jefe del Centro de Diagnóstico Molecular, del laboratorio de Bacteriología experimental del Hospital Universitario de Leuven. Bélgica.</p>
+                        <p class="ponente-name">Dra. Danielle Ofri</p>
+                        <p>Médico internista en el Hospital de Bellevue y profesora de medicina en la Universidad de Nueva York. </p>
+                        <p>Es además cofundadora y redactora jefe de la revista Bellevue Literary Review. Estados Unidos</p>
                     </li>
                 </ul>
-                <p>Presenta la <span class="bold">Dra. Dña. Lucía Alonso Pérez</span>. Directora territorial Madrid, IDCsalud-Quirón.</p>
+                <p>Presenta <span class="bold">D. Jaume Raventós Monjo</span>. Director Territorial de Cataluña. Quirónsalud.</p>
             </div>  
         </div>
 
-        <div class="row margin-top-10">
-            <div class="col-md-3 program-time center green-background">
-                <p>11:30h- 12:00h</p>
+        <div class="row programa-header green-background">
+            <div class="col-md-3 program-time center">
+                <p>11:30h - 12:00h</p>
             </div>
-            <div class="col-md-9 green-background program-event">
+            <div class="col-md-9 program-event">
                 <p>Pausa café</p>
             </div>  
         </div>
 
-        <div class="row programa-header margin-top-10">
-            <div class="col-md-3 program-time center green-background">
-                <p>12:00h- 13:00h</p>
+        <div class="row programa-header green-background">
+            <div class="col-md-3 program-time center">
+                <p>12:00h - 14:00h</p>
             </div>
-            <div class="col-md-9 green-background program-event">
-                <p>3a Conferencia</p>
-                <p>La experiencia de un líder</p>
+            <div class="col-md-9 program-event">
+                <p>Mesa redonda: Mejores prácticas en seguridad del paciente. </p>
+                <p>Breve presentación de los proyectos ganadores de la I Edición de los Premios Quirónsalud a las Mejores Iniciativas en Seguridad del Paciente y su evolución</p>
             </div>  
         </div>
-        <div class="row light-gray-background">
+        <div class="row light-gray-background program-entry">
             <div class="col-md-9 col-md-offset-3 ">
-                <p class="programa-subtitle">Ponente</p>
+                <p class="programa-subtitle">Introducción.</p>
                 <ul class="lista-ponentes">
                     <li>
-                        <p class="ponente-name">Dr. Donald M. Berwick</p>
-                        <p>Fue director de Centers for Medicare and Medicaid Services (CMS), y fundador, presidente y CEO del IHI (Institute for Healthcare Improvement). Estados Unidos.</p>
+                        <p class="ponente-name">Elementos para la mejora de la seguridad de los pacientes en España<br>Dra. Itziar Larizgoitia</p>
+                        <p>Evaluadora Senior en Dirección General de la Organización Mundial de la Salud (OMS), fue coordinadora y responsable del Programa de Investigación en Seguridad del Paciente de la OMS. Suiza </p>
                     </li>
                 </ul>
-                <p>Presenta el <span class="bold">Dr. D. Raúl Muñiz García</span>. Director de mejores prácticas, IDCsalud-Quirón.</p>
-            </div>  
-        </div>
-
-        <div class="row programa-header margin-top-10">
-            <div class="col-md-3 program-time center green-background">
-                <p>13:00h- 14:00h</p>
-            </div>
-            <div class="col-md-9 green-background program-event">
-                <p>Mesa redonda.</p> 
-                <p>Sesión de debate sobre las ideas expuestas por los conferenciantes, con siete profesionales de gran prestigio en España</p>
-            </div>  
-        </div>
-        <div class="row light-gray-background">
-            <div class="col-md-9 col-md-offset-3 ">
-                <p class="programa-subtitle">Ponentes</p>
+                <p class="programa-subtitle">Presentación de los proyectos ganadores.</p>
                 <ul class="lista-ponentes">
                     <li>
-                        <p class="ponente-name">D. Adolfo Fernández-Valmayor</p>
-                        <p>Director general de Organización, Procesos y TIC &amp; Digital, IDCsalud-Quirón.</p>
+                        <p class="ponente-name">Historial farmacoterapéutico único por paciente en Osakidetza.<br>Dra. Teresa Madrid Conde</p>
+                        <p>Técnico de la Subdirección de Calidad e Información</p><p>Sanitaria. Osakidetza. Bilbao </p>
                     </li>           
                     <li>
-                        <p class="ponente-name">Dr. D. Eduardo Fraile Moreno</p>
-                        <p>Director técnico de la Unidad Central de Radiodiagnóstico de la Comunidad de Madrid.</p>
+                        <p class="ponente-name">Impacto de la implantación de protocolos de tratamiento con medicamentos de alto riesgo en el paciente crítico. <br>Dra. Teresa Bermejo Vicedo</p>
+                        <p>Jefe del Servicio de Farmacia Hospital Ramón y Cajal, Madrid</p>
                     </li>                           
                     <li>
-                        <p class="ponente-name">Dr. D. Joseba Rebollo Liceaga</p>
-                        <p>Jefe de Oncología Médica del Hospital General de Villalba.</p>
+                        <p class="ponente-name">Seguridad sobre la terapia intravenosa en neonatología. <br>Dr. José Luis Leante Castellanos</p>
+                        <p>Jefe de Sección de Neonatología del Hospital General Universitario Santa Lucía de Cartagena. Murcia</p>
                     </li>
-                    <li>
-                        <p class="ponente-name">Dr. D. Eduard Gratacós Solsona</p>
-                        <p>Director, BCNatal-Centro de Medicina Maternofetal y Neonatal, Hospitales Clínic y Sant Joan de Deu, Barcelona</p>
-                    </li>
-                    <li>
-                        <p class="ponente-name">Dr. D. Pedro Rico Pérez</p>
-                        <p>Director General de Operaciones de Hospitales Privados, IDCsalud-Quir&oacute;n.</p>
-                    </li>       
-                    <li>
-                        <p class="ponente-name">Dr. D. José Luis de Sancho</p>
-                        <p>Especialista en gestión sanitaria. Barcelona.</p>
-                    </li>                       
-                    <li>
-                        <p class="ponente-name">Dr. D. Gonzalo Varela Simó</p>
-                        <p>Jefe del Servicio de Cirugía Torácica del Hospital Universitario de Salamanca.</p>
-                    </li>           
                 </ul>
-                <p>Moderador: <span class="bold">Dr. D. Raimon Belenes Juárez</span>. Director corporativo de innovación, investigación y calidad, IDCsalud-Quirón.</p>
+                <p>Moderador: <span class="bold">Dra. Celia García Menéndez</span>, Directora de Calidad y Seguridad del Paciente. Quirónsalud.</p>
             </div>  
         </div>
 
-        <div class="row margin-top-10">
-            <div class="col-md-3 program-time center green-background">
-                <p>14:00h- 14:30h</p>
+        <div class="row programa-header green-background">
+            <div class="col-md-3 program-time center">
+                <p>14:00h - 14:30h</p>
             </div>
-            <div class="col-md-9 green-background program-event">
-                <p>Clausura y entrega del Premio a la Mejores Iniciativas en Seguridad del Paciente I Edición</p>
+            <div class="col-md-9 program-event">
+                <p>Clausura y entrega del Premio a la Mejores Iniciativas en Seguridad del Paciente II Edición</p>
             </div>  
         </div>
-        <div class="row light-gray-background">
+        <div class="row light-gray-background program-entry">
             <div class="col-md-9 col-md-offset-3">
-                <p class="bold programa-subtitle">Entrega el premio la Dra. Dña. María Cordón Muro. Consejera de IDCsalud-Quirón.</p>
-
+                <p class="programa-subtitle">Entrega el premio la <span class="bold">Dra. Dña. María Cordón Muro</span>. Consejera de IDCsalud-Quirón.</p>
             </div>  
         </div>  
-        <div class="row margin-top-10">
-            <div class="col-md-3 program-time center green-background">
-                <p>14:30h- 15:30h</p>
+        <div class="row programa-header green-background">
+            <div class="col-md-3 program-time center">
+                <p>14:30h - 16:30h</p>
             </div>
-            <div class="col-md-9 green-background program-event">
+            <div class="col-md-9 program-event">
                 <p>Refrigerio</p>
             </div>  
         </div>

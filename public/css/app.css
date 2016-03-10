@@ -6066,9 +6066,9 @@ a {
 .block {
   display: block; }
 
-.center, .programa-seminario .programa-subtitle, .programa-seminario .program-event {
+.center, .programa-seminario .program-event {
   text-align: center; }
-  .center h1, .programa-seminario .programa-subtitle h1, .programa-seminario .program-event h1 {
+  .center h1, .programa-seminario .program-event h1 {
     margin-bottom: 10px; }
 
 .right {
@@ -6208,45 +6208,50 @@ footer {
 /* PROGRAMA */
 .programa-seminario {
   padding-bottom: 50px; }
+  .programa-seminario .program-entry {
+    padding-bottom: 15px; }
   .programa-seminario p {
     margin: 0;
-    font-size: 1em;
-    font-weight: 300; }
+    font-size: 0.85em;
+    font-weight: 300;
+    text-align: left; }
     .programa-seminario p.ponente-name {
       font-weight: 500; }
-  .programa-seminario .programa-header .program-time {
+  .programa-seminario .programa-header {
+    margin-top: 10px; }
+  .programa-seminario .program-time {
     position: relative; }
-    @media (min-width: 769px) {
-      .programa-seminario .programa-header .program-time {
-        min-height: 40px; } }
-    .programa-seminario .programa-header .program-time p {
+    .programa-seminario .program-time p {
       height: auto;
-      position: absolute;
-      bottom: 0;
-      top: 0;
-      left: 0;
-      right: 0; }
+      text-align: center; }
       @media (max-width: 769px) {
-        .programa-seminario .programa-header .program-time p {
+        .programa-seminario .program-time p {
           position: relative; } }
   .programa-seminario .programa-subtitle {
-    margin-top: 5px; }
+    margin-top: 5px;
+    text-align: left; }
+    @media (max-width: 768px) {
+      .programa-seminario .programa-subtitle {
+        text-align: center; } }
   .programa-seminario ul.lista-ponentes {
     border-top: 1px solid white;
     margin-top: 5px;
     padding-top: 5px; }
     .programa-seminario ul.lista-ponentes li .ponente-name {
       font-weight: bold; }
+  .programa-seminario .program-event p {
+    font-weight: 600; }
+  @media (min-width: 769px) {
+    .programa-seminario .program-event {
+      border-left: 1px solid white; } }
+
+.program-time > p {
+  font-weight: bold; }
 
 .green-background {
   background: #00B1AC;
   color: white;
   font-weight: bold; }
-  @media (min-width: 769px) {
-    .green-background.program-time {
-      border-right: 1px solid white; } }
-  .green-background.program-time > p {
-    font-weight: bold; }
 
 .light-gray-background {
   background: #f5f5f5; }
