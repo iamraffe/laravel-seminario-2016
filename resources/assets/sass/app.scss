@@ -270,17 +270,17 @@ img.logo-seminario{
   }
 
   .letter{
-    padding-bottom: 50px;
+    padding-bottom: 125px;
   }
 
   .letter-content{
     h3{
-      font-size: 1.15em;
-      line-height: 2.5em;
+      font-size: 1.25em;
+      line-height: 2.75em;
     }
 
     p{
-      line-height: 1.75em;
+      line-height: 2em;
       font-size: 1em;
       font-weight: 300;
     }
@@ -538,15 +538,18 @@ img.logo-seminario{
     }
     /* CONDICIONES */
   .condiciones{
-    font-size: 1.25em;
+    font-size: 1em;
+    padding-bottom: 125px; 
     h2{
-
+      font-size: 1.75em;
+      font-weight: 800;
     }
     h3{
 
     }
     p{
-
+      font-weight: 300;
+      line-height: 2em;
     } 
     a{
       &:hover{

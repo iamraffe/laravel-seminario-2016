@@ -11,9 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', "PagesController@index");
+
+Route::get('/programa', "PagesController@programa");
+
+Route::get('/premios', "PagesController@premios");
+
+Route::get('/como-llegar', "PagesController@como_llegar");
+
+Route::get('/terms-and-conditions', "PagesController@terms_and_conditions");
 
 /*
 |--------------------------------------------------------------------------

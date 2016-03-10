@@ -5,8 +5,12 @@
  */
 
 // Core variables and mixins
-@import "bootstrap/variables";
+
+@import "seminario-theme/variables";
 @import "bootstrap/mixins";
+@import "seminario-theme/yeti";
+
+
 
 // Reset and dependencies
 @import "bootstrap/normalize";
