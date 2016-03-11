@@ -6037,9 +6037,6 @@ header {
   padding-top: 0;
   margin-top: 0; }
 
-section {
-  overflow: auto; }
-
 textarea {
   resize: vertical; }
 
@@ -6376,13 +6373,25 @@ footer {
       display: block; }
 
 /* PREMIO */
-.row#premio {
+.row.premios {
   padding-bottom: 50px; }
-  .row#premio img {
+  .row.premios h1 {
+    font-size: 2.5em;
+    margin-bottom: 25px; }
+  .row.premios h2 {
+    font-weight: bold;
+    font-size: 1.25em;
+    margin-bottom: 15px; }
+  .row.premios p {
+    line-height: 2em;
+    font-size: 1em;
+    font-weight: 300; }
+  .row.premios img {
     max-width: 100%;
     text-align: center;
     display: block;
-    margin: 0 auto; }
+    margin: 50px auto;
+    cursor: pointer; }
 
 /* CONDICIONES */
 .condiciones {

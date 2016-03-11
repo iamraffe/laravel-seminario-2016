@@ -36,7 +36,7 @@ header{
 }
 
 section {
-  overflow: auto;
+  // overflow: auto;
 }
 
 textarea {
@@ -553,16 +553,39 @@ img.logo-seminario{
           }           
       }      
     }
+
     /* PREMIO */
-    .row#premio{
+    .row.premios{
       padding-bottom: 50px;
+      
+      h1{
+        font-size: 2.5em;
+        margin-bottom: 25px;
+      }
+
+      h2{
+        font-weight: bold;
+        font-size: 1.25em;
+        margin-bottom: 15px;
+      }
+      
+      p{
+        line-height: 2em;
+        font-size: 1em;
+        font-weight: 300;
+      }
+
       img{
         max-width: 100%;
         text-align: center;
         display: block;
-        margin: 0 auto;
+        margin: 50px auto;
+        cursor: pointer;
       }
+
+
     }
+
     /* CONDICIONES */
   .condiciones{
     font-size: 1em;
