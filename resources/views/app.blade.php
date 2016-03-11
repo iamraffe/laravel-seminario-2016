@@ -54,7 +54,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                        <a class="navbar-brand" href="/"><img class="logo-seminario" src="/img/logoLogin.svg" alt="2do Seminario Internacional de Seguridad del Paciente y Excelencia Clínica"><span class="invisible">Inicio</span></a>
+                        <a class="navbar-brand" href="/"><img class="logo-seminario" src="/img/seminario_2016.png" alt="2do Seminario Internacional de Seguridad del Paciente y Excelencia Clínica"><span class="invisible">Inicio</span></a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-primary-collapse">
                   <ul class="nav navbar-nav">
@@ -84,6 +84,7 @@
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     @yield('javascript')
 </body>
 </html>

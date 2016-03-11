@@ -9,8 +9,6 @@
   border: none;
   font-size: 13px;
   font-weight: 300; }
-  .navbar .navbar-toggle:hover .icon-bar {
-    background-color: #b3b3b3; }
   .navbar-collapse {
     border-top-color: rgba(0, 0, 0, 0.2);
     box-shadow: none; }
@@ -6024,7 +6022,7 @@ html, body {
   padding: 0;
   color: #4b4f54; }
 
-.aqua {
+.aqua, .row.registration form legend h1 {
   color: #00B1AC !important; }
 
 .red {
@@ -6216,6 +6214,10 @@ footer {
       font-weight: 500; }
   .programa-seminario .programa-header {
     margin-top: 10px; }
+    @media (max-width: 991px) {
+      .programa-seminario .programa-header p {
+        text-align: center;
+        padding: 5px; } }
   .programa-seminario .program-time {
     position: relative; }
     .programa-seminario .program-time p {
@@ -6227,9 +6229,6 @@ footer {
   .programa-seminario .programa-subtitle {
     margin-top: 5px;
     text-align: left; }
-    @media (max-width: 768px) {
-      .programa-seminario .programa-subtitle {
-        text-align: center; } }
   .programa-seminario ul.lista-ponentes {
     border-top: 1px solid white;
     margin-top: 5px;
@@ -6238,12 +6237,15 @@ footer {
       font-weight: bold; }
   .programa-seminario .program-event p {
     font-weight: 600; }
-  @media (min-width: 769px) {
+  @media (min-width: 992px) {
     .programa-seminario .program-event {
       border-left: 1px solid white; } }
 
 .program-time > p {
   font-weight: bold; }
+  @media (max-width: 991px) {
+    .program-time > p {
+      border-bottom: 1px solid white; } }
 
 .green-background {
   background: #00B1AC;
@@ -6392,6 +6394,21 @@ footer {
     display: block;
     margin: 50px auto;
     cursor: pointer; }
+
+/*  INSCRIPCION  */
+.row.registration {
+  margin-top: 25px;
+  padding-bottom: 100px; }
+  .row.registration form legend {
+    margin-bottom: 50px; }
+    .row.registration form legend h1 {
+      font-weight: 300; }
+  .row.registration form label {
+    font-size: 1em;
+    font-weight: 300; }
+  .row.registration form .help-block {
+    font-style: italic;
+    font-weight: 300; }
 
 /* CONDICIONES */
 .condiciones {

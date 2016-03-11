@@ -11,6 +11,12 @@
 |
 */
 
+/*
+
+STATIC
+
+ */
+
 Route::get('/', "PagesController@index");
 
 Route::get('/programa', "PagesController@programa");
@@ -20,6 +26,16 @@ Route::get('/premios', "PagesController@premios");
 Route::get('/como-llegar', "PagesController@como_llegar");
 
 Route::get('/terms-and-conditions', "PagesController@terms_and_conditions");
+
+/*
+
+DYNAMIC
+
+ */
+
+Route::get('/registro', 'RegistrationsController@index');
+
+Route::post('/handle-registration', 'RegistrationsController@register');
 
 /*
 |--------------------------------------------------------------------------
