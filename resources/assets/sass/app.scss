@@ -95,7 +95,7 @@ ul.breadcrumb{
 
 // .generate-columns($n, $i: 1) when ($i =< $n) {
 //   $margin:($i * 10);
-//   .margin-top-${margin} {
+//   .margin-top-#{$margin} {
 //     margin-top: ($i * 10px);
 //   }
 //   .generate-columns($n, ($i + 1));
@@ -505,7 +505,7 @@ img.logo-seminario{
           a{
             display:block;
             padding:10px 15px 10px 15px;
-            background: url("${img-url}accordion-open.png") no-repeat right center;
+            background: url("#{$img-url}accordion-open.png") no-repeat right center;
             text-decoration: none;
             font-size: 0.65em;
             color:#999999 !important;
@@ -519,7 +519,7 @@ img.logo-seminario{
           &.active{
             a{
               color:#444444 !important;
-              background: url("${img-url}accordion-close.png") no-repeat right center;
+              background: url("#{$img-url}accordion-close.png") no-repeat right center;
                 i{
                   opacity: 0.95;
                 } 

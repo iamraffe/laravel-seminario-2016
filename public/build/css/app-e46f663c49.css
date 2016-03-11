@@ -6339,7 +6339,7 @@ footer {
     .accordion .accordion-title a {
       display: block;
       padding: 10px 15px 10px 15px;
-      background: url("${img-url}accordion-open.png") no-repeat right center;
+      background: url("../../../../img/accordion-open.png") no-repeat right center;
       text-decoration: none;
       font-size: 0.65em;
       color: #999999 !important; }
@@ -6348,7 +6348,7 @@ footer {
         opacity: 0.4; }
     .accordion .accordion-title.active a {
       color: #444444 !important;
-      background: url("${img-url}accordion-close.png") no-repeat right center; }
+      background: url("../../../../img/accordion-close.png") no-repeat right center; }
       .accordion .accordion-title.active a i {
         opacity: 0.95; }
   .accordion .accordion-inner {
