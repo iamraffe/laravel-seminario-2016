@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use App\Registration;
 
 class RegistrationsController extends Controller
 {
@@ -30,7 +31,7 @@ class RegistrationsController extends Controller
                         ->withInput();
         }
 
-        // Registration::create($request->all());
+        Registration::create($request->all());
 
         $email = strtolower($request->email);
         $name = $request->nombre.' '.$request->primer_apellido.' '.$request->segundo_apellido;

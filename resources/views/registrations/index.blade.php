@@ -79,9 +79,9 @@ En esta sección podrá inscribirse para participar en la segunda edición del s
               </div>
             </div>
             <div class="form-group">
-              <label for="telefono" class="col-sm-3 control-label">Telefóno</label>
+              <label for="telefono" class="col-sm-3 control-label">Teléfono</label>
               <div class="col-sm-9">
-                <input type="text" required class="form-control" id="telefono" name="telefono" placeholder="Telefóno">
+                <input type="text" required class="form-control" id="telefono" name="telefono" placeholder="Teléfono">
               </div>
             </div>
             <div class="form-group">
@@ -107,7 +107,7 @@ En esta sección podrá inscribirse para participar en la segunda edición del s
   <script>
     function canSubmitForm(form){
       var canSubmit = true;
-      form.find('input').each(function() {
+      form.find('input:not(#telefono_secundario)').each(function() {
          var element = $(this);
          if (element.val() == "") {
              canSubmit = false;
