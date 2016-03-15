@@ -10,7 +10,7 @@ use App\Speaker;
 class SpeakersController extends Controller
 {
     public function index(){
-      $speakers = Speaker::all();
+      $speakers = Speaker::orderBy('position')->get();
       return view('speakers.index', compact('speakers'));
     }
 
