@@ -23,7 +23,7 @@ La segunda edición del seminario se llevará a cabo, al igual que la edición a
         <h1 class="invisible">Direcciones</h1>
         <!-- LOCALIZACION -->
         <div class="accordion-title active">
-            <h2><a href="#">Localización</a></h2>
+            <h2 class="neo-sans-text"><a href="#">Localización</a></h2>
         </div>
         <div class="accordion-inner default">
             <div class="row">
@@ -39,7 +39,7 @@ La segunda edición del seminario se llevará a cabo, al igual que la edición a
         </div>
         <!-- METRO -->
         <div class="accordion-title">
-            <h2><a href="#">Si viene en Metro</a></h2>
+            <h2 class="neo-sans-text"><a href="#">Si viene en Metro</a></h2>
         </div>
         <div class="accordion-inner">
             <div class="row">
@@ -57,7 +57,7 @@ La segunda edición del seminario se llevará a cabo, al igual que la edición a
         </div>
         <!-- BUS -->
         <div class="accordion-title">
-            <h2><a href="#">Si viene en Autobús</a></h2>
+            <h2 class="neo-sans-text"><a href="#">Si viene en Autobús</a></h2>
         </div>
         <div class="accordion-inner">
             <div class="row">

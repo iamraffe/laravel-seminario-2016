@@ -35,7 +35,7 @@ En esta sección podrá inscribirse para participar en la segunda edición del s
         @endif
         <form class="form-horizontal" action="{{ url('handle-registration') }}" method="POST">
           <fieldset>
-            <legend><h1>Inscripción</h1></legend>
+            <legend class="neo-sans-text"><h1>Inscripción</h1></legend>
             <div class="form-group">
               <label for="nombre" class="col-sm-3 control-label">Nombre</label>
               <div class="col-sm-9">

@@ -19,8 +19,8 @@ El Grupo busca fomentar el desarrollo de prácticas seguras para los usuarios y 
     <article class="row premios">
       <div class="col-md-10 col-md-offset-1">
         <header>
-          <h1 class="aqua">II Edición Premio Quirónsalud a las Mejores Iniciativas en Seguridad del Paciente.</h1>
-          <h2>Participa y demuestra tu compromiso</h2>        
+          <h1 class="aqua neo-sans-text">II Edición Premio Quirónsalud a las Mejores Iniciativas en Seguridad del Paciente.</h1>
+          <h2 class="neo-sans-text">Participa y demuestra tu compromiso</h2>        
         </header>
         <p>Quirónsalud y la Fundación Quirónsalud han convocado la <span class="bold">II Edición de los Premios a las Mejores Iniciativas en Seguridad del Paciente</span>. con el objetivo de fomentar el desarrollo de prácticas seguras para los usuarios del sistema de salud y sus profesionales. Las candidaturas podrán presentarse hasta el próximo <span class="bold">9 de abril</span> a través de la web <a href="http://www.quironsalud.es" title="quironsalud">quironsalud.es</a>, donde están disponibles las <a href="http://www.quironsalud.es/es/comunicacion/noticias/ii-edicion-premio-quironsalud-mejores-iniciativas-seguridad.ficheros/231205-Bases%20II%20Edici%C3%B3n%20Premio%20Mejores%20%20Iniciativas%20Seguridad%20Paciente.pdf" title="bases">bases</a> con el detalle de la documentación requerida.</p>
         <img data-hook="premios-poster" src="/img/premios.gif" alt="II Edición Premio Quirónsalud a las Mejores Iniciativas en Seguridad del Paciente.">

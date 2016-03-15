@@ -6057,6 +6057,9 @@ html, body {
   padding: 0;
   color: #4b4f54; }
 
+.neo-sans-text {
+  font-family: 'neo_sansregular' !important; }
+
 .aqua, .row.registration form legend h1 {
   color: #00B2A9 !important; }
 

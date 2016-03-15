@@ -23,7 +23,7 @@ Hemos incluido conferenciantes europeos. Manteniendo un equilibrio entre las rep
             <div class="member">
               <div class="member-img">
                   <img src="/img/ponentes/{{ $speaker->avatar }}" alt=" {{ $speaker->nombre.' '.$speaker->primer_apellido.' '.$speaker->segundo_apellido }}">
-                  <h2> {{ $speaker->nombre.' '.$speaker->primer_apellido.' '.$speaker->segundo_apellido }}</h2>
+                  <h2 class="neo-sans-text"> {{ $speaker->nombre.' '.$speaker->primer_apellido.' '.$speaker->segundo_apellido }}</h2>
 
                   <div class="member-role">
                       <p class="ponente-cargo"> {{ $speaker->cargo }}</p>

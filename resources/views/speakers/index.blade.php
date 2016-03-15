@@ -24,8 +24,8 @@ Hemos incluido conferenciantes europeos. Manteniendo un equilibrio entre las rep
               <a class="thumbnail" href="{{ url('/ponentes/'.$speaker->slug) }}">
                 <img class="img-responsive" src="/img/ponentes/{{ $speaker->avatar }}" alt="{{ $speaker->nombre.' '.$speaker->primer_apellido.' '.$speaker->segundo_apellido }}">
                 <header>
-                  <h1>{{ $speaker->nombre.' '.$speaker->primer_apellido.' '.$speaker->segundo_apellido }}</h1>
-                  <h2>{{ $speaker->centro }}</h2>        
+                  <h1 class="neo-sans-text">{{ $speaker->nombre.' '.$speaker->primer_apellido.' '.$speaker->segundo_apellido }}</h1>
+                  <h2 class="neo-sans-text">{{ $speaker->centro }}</h2>        
                 </header>
               </a>    
             </article>

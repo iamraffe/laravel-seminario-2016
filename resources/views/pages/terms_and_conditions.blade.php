@@ -16,7 +16,7 @@ Terminos y condiciones correspondientes a la página web del seminario.
 <h1 class="invisible">Términos y Condiciones de Uso</h1>
   <div class="condiciones"> 
     <div class="row">
-      <h2>Condiciones de uso</h2>
+      <h2 class="neo-sans-text">Condiciones de uso</h2>
       <p>En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), FUNDASETH SL informa que es titular del sitio web WWW.FUNDASETH.ES. De acuerdo con la exigencia del artículo 10 de la citada Ley, FUNDASETH SL informa de los siguientes datos:</p>
       <p>El titular de este sitio web es FUNDASETH SL, con CIF B86549961 y domicilio social en c/ Alejandro Rodriguez, 32 Bajo 28039 Madrid, inscrita en el Registro Mercantil de Madrid, en el tomo 30371, folio 155,  hoja M546604 e inscripción 1ª. La dirección de correo electrónico de contacto con la empresa es: info@fundaseth.es.</p>
     </div>
