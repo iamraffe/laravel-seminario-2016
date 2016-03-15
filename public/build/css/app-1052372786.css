@@ -14,6 +14,27 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Calibri';
+  src: url("../../../../fonts/Calibri.eot");
+  src: url("../../../../fonts/Calibri.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/Calibri.woff2") format("woff2"), url("../../../../fonts/Calibri.woff") format("woff"), url("../../../../fonts/Calibri.ttf") format("truetype"), url("../../../../fonts/Calibri.svg#Calibri") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("../../../../fonts/Calibri-Light.eot");
+  src: url("../../../../fonts/Calibri-Light.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/Calibri-Light.woff2") format("woff2"), url("../../../../fonts/Calibri-Light.woff") format("woff"), url("../../../../fonts/Calibri-Light.ttf") format("truetype"), url("../../../../fonts/Calibri-Light.svg#Calibri-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("../../../../fonts/Calibri-Bold.eot");
+  src: url("../../../../fonts/Calibri-Bold.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/Calibri-Bold.woff2") format("woff2"), url("../../../../fonts/Calibri-Bold.woff") format("woff"), url("../../../../fonts/Calibri-Bold.ttf") format("truetype"), url("../../../../fonts/Calibri-Bold.svg#Calibri-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -1331,7 +1352,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "neo_sansregular", Calibri, Helvetica, Arial, sans-serif;
+  font-family: Calibri, Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.4;
   color: #222222;
@@ -1413,7 +1434,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "neo_sansregular", Calibri, Helvetica, Arial, sans-serif;
+  font-family: Calibri, Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.1;
   color: inherit; }
@@ -5410,7 +5431,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "neo_sansregular", Calibri, Helvetica, Arial, sans-serif;
+  font-family: Calibri, Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5523,7 +5544,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "neo_sansregular", Calibri, Helvetica, Arial, sans-serif;
+  font-family: Calibri, Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6190,7 +6211,8 @@ footer {
   .jumbotron .site-title {
     font-size: 2.75em;
     font-weight: 300;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    font-family: 'neo_sansregular', Calibri, sans-serif; }
     .jumbotron .site-title span {
       font-weight: 800;
       display: block; }

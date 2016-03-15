@@ -15,7 +15,6 @@
 
 
 
-
 @font-face {
     font-family: 'neo_sansbold';
     src: url('../../../../fonts/neo_sans_bold-webfont.eot');
@@ -28,6 +27,44 @@
     font-style: normal;
 
 }
+
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('../../../../fonts/Calibri.eot');
+  src: url('../../../../fonts/Calibri.eot?#iefix') format('embedded-opentype'),
+    url('../../../../fonts/Calibri.woff2') format('woff2'),
+    url('../../../../fonts/Calibri.woff') format('woff'),
+    url('../../../../fonts/Calibri.ttf') format('truetype'),
+    url('../../../../fonts/Calibri.svg#Calibri') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('../../../../fonts/Calibri-Light.eot');
+  src: url('../../../../fonts/Calibri-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../../../fonts/Calibri-Light.woff2') format('woff2'),
+    url('../../../../fonts/Calibri-Light.woff') format('woff'),
+    url('../../../../fonts/Calibri-Light.ttf') format('truetype'),
+    url('../../../../fonts/Calibri-Light.svg#Calibri-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('../../../../fonts/Calibri-Bold.eot');
+  src: url('../../../../fonts/Calibri-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../../../fonts/Calibri-Bold.woff2') format('woff2'),
+    url('../../../../fonts/Calibri-Bold.woff') format('woff'),
+    url('../../../../fonts/Calibri-Bold.ttf') format('truetype'),
+    url('../../../../fonts/Calibri-Bold.svg#Calibri-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
 
 @import "_bootstrap";
 
@@ -285,6 +322,7 @@ img.logo-seminario{
       font-size: 2.75em;
       font-weight: 300;
       margin-bottom: 25px;
+      font-family: 'neo_sansregular', Calibri, sans-serif;
       span{
         font-weight: 800;
         display: block
@@ -440,7 +478,7 @@ img.logo-seminario{
           margin-bottom: 30px;
           header{
             min-height: 80px;
-            
+
             h1{
               text-align: center;
               font-size: 1em;
