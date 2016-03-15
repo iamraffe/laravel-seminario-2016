@@ -6274,12 +6274,14 @@ footer {
   transition: all 1s;
   overflow: hidden;
   margin-bottom: 30px; }
-  .speakers article header h1 {
-    text-align: center;
-    font-size: 1em; }
-  .speakers article header h2 {
-    text-align: center;
-    font-size: 0.8em; }
+  .speakers article header {
+    min-height: 80px; }
+    .speakers article header h1 {
+      text-align: center;
+      font-size: 1em; }
+    .speakers article header h2 {
+      text-align: center;
+      font-size: 0.8em; }
   .speakers article a {
     color: #4b4f54; }
     .speakers article a:hover {
