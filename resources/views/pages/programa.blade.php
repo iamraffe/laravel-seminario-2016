@@ -37,15 +37,15 @@ Nos centraremos en las estrategias y los programas para mejorar la calidad y la 
                 <ul class="lista-ponentes">
                     <li>
                         <p class="ponente-name">D. Juan Antonio Álvaro de la Parra</p>
-                        <p>Director del Hospital Universitario Fundación Jiménez Díaz. Grupo·Quirónsalud.</p>
+                        <p>Director del Hospital Universitario Fundación Jiménez Díaz·Grupo Quirónsalud.</p>
                     </li>
                     <li>
                         <p class="ponente-name">Dra. Leticia Moral Iglesias</p>
-                        <p>Directora Corporativa de Asistencia, Calidad e Innovación. Grupo·Quirónsalud.</p>
+                        <p>Directora Corporativa de Asistencia, Calidad e Innovación del Grupo Quirónsalud.</p>
                     </li>
                     <li>
                         <p class="ponente-name">Dr. D. Raimon Belenes Juárez</p>
-                        <p>Director del Seminario Internacional de Seguridad del Paciente y Excelencia Clínica de Grupo·Quirónsalud.</p>
+                        <p>Director del Seminario Internacional de Seguridad del Paciente y Excelencia Clínica del Grupo Quirónsalud.</p>
                     </li>
                 </ul>
             </div>  
@@ -70,7 +70,7 @@ Nos centraremos en las estrategias y los programas para mejorar la calidad y la 
                         <p>Fue director del National Institute of Health Research Centre for Patient Safety &amp; Service Quality del Imperial College de Londres. Reino Unido.</p>
                     </li>
                 </ul>
-                <p>Presenta el <span class="bold">Dr. Javier Guerra Blanco</span>, Director Médico del Hospital Universitario Fundación Jiménez Díaz. Grupo·Quirónsalud.</p>
+                <p>Presenta el <span class="bold">Dr. Javier Guerra Blanco</span>, Director Médico del Hospital Universitario Fundación Jiménez Díaz·Grupo Quirónsalud.</p>
             </div>  
         </div>
 
@@ -93,7 +93,7 @@ Nos centraremos en las estrategias y los programas para mejorar la calidad y la 
                         <p>Es además cofundadora y redactora jefe de la revista Bellevue Literary Review. Estados Unidos</p>
                     </li>
                 </ul>
-                <p>Presenta <span class="bold">D. Jaume Raventós Monjo</span>. Director Territorial de Cataluña. Grupo·Quirónsalud.</p>
+                <p>Presenta <span class="bold">D. Jaume Raventós Monjo</span>. Director Territorial de Cataluña. Grupo Quirónsalud.</p>
             </div>  
         </div>
 
@@ -139,7 +139,7 @@ Nos centraremos en las estrategias y los programas para mejorar la calidad y la 
                         <p>Jefe de Sección de Neonatología del Hospital General Universitario Santa Lucía de Cartagena. Murcia</p>
                     </li>
                 </ul>
-                <p>Moderador: <span class="bold">Dra. Celia García Menéndez</span>, Directora de Calidad y Seguridad del Paciente. Grupo·Quirónsalud.</p>
+                <p>Moderador: <span class="bold">Dra. Celia García Menéndez</span>, Directora de Calidad y Seguridad del Paciente. Grupo Quirónsalud.</p>
             </div>  
         </div>
 
@@ -153,7 +153,7 @@ Nos centraremos en las estrategias y los programas para mejorar la calidad y la 
         </div>
         <div class="row light-gray-background program-entry">
             <div class="col-md-9 col-md-offset-3">
-                <p class="programa-subtitle">Entrega el premio la <span class="bold">Dra. Leticia Moral Iglesias</span>. Directora Corporativa de Asistencia, Calidad e Innovación. Grupo·Quirónsalud</p>
+                <p class="programa-subtitle">Entrega el premio la <span class="bold">Dra. Leticia Moral Iglesias</span>. Directora Corporativa de Asistencia, Calidad e Innovación del Grupo Quirónsalud</p>
             </div>  
         </div>  
         <div class="row programa-header green-background">
