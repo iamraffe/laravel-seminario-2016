@@ -6605,4 +6605,20 @@ fieldset[disabled] .btn-custom.active {
   color: #E94462;
   background-color: #FFFFFF; }
 
+.projects {
+  padding-bottom: 125px; }
+
+.project {
+  padding-bottom: 50px; }
+  .project header h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f6f6f6;
+    padding-bottom: 35px;
+    margin-bottom: 50px; }
+  .project p {
+    line-height: 2em;
+    font-size: 1em;
+    font-weight: 300; }
+
 /*# sourceMappingURL=app.css.map */

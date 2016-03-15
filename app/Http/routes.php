@@ -41,6 +41,8 @@ Route::get('/ponentes', 'SpeakersController@index');
 
 Route::get('/ponentes/{slug}', 'SpeakersController@show');
 
+Route::get('/proyectos', 'ProjectsController@index');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
