@@ -153,12 +153,12 @@ Nos centraremos en las estrategias y los programas para mejorar la calidad y la 
         </div>
         <div class="row light-gray-background program-entry">
             <div class="col-md-9 col-md-offset-3">
-                <p class="programa-subtitle">Entrega el premio la <span class="bold">Dra. Dña. María Cordón Muro</span>. Consejera de IDCsalud-Quirón.</p>
+                <p class="programa-subtitle">Entrega el premio la <span class="bold">Dra. Leticia Moral Iglesias</span>. Directora Corporativa de Asistencia, Calidad e Innovación. Quirónsalud</p>
             </div>  
         </div>  
         <div class="row programa-header green-background">
             <div class="col-md-3 program-time center">
-                <p>14:30h - 16:30h</p>
+                <p>14:30h - 15:30h</p>
             </div>
             <div class="col-md-9 program-event">
                 <p>Refrigerio</p>

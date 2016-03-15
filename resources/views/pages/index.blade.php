@@ -15,7 +15,7 @@ El propósito del seminario es ofrecer a los asistentes la voz de unos ponentes 
           <div class="col-sm-10 col-sm-offset-1 big-text">
             <h1 class="site-title"><span>3<sup>er</sup> Seminario Internacional</span> de Seguridad del Paciente y Excelencia Clínica</h1>
             <a class="btn btn-custom margin-top-20" href="/registro">
-              Inscripción  <span class="fa fa-pencil-square-o" style="margin-left: 7.5px; font-size: 0.95em;"></span>
+              Inscripción
             </a>
           </div>
         </div>
@@ -36,11 +36,6 @@ El propósito del seminario es ofrecer a los asistentes la voz de unos ponentes 
             <p>Este año tendremos dos intervenciones de gran relevancia, a cargo de los doctores Charles Vincent y Danielle Ofri, con exposiciones basadas en dos contextos sanitarios bien diferentes, como son el de EEUU y Reino Unido.</p>
             <p>El seminario continuará con una mesa redonda, introducida por la Dra. Itziar Larizgoitia, de la OMS y seguida por las presentaciones de la implantación de los proyectos ganadores de la Primera Edición del Premio a las Mejores Iniciativas de Seguridad del Paciente, concedidos el año pasado.</p>
             <p>Y aprovechamos, al final de la jornada de trabajo, para dar a conocer los ganadores de la 2<sup>ª</sup> Edición del Premio, en este caso organizado conjuntamente por Quirónsalud y la Fundación Quirónsalud.</p>
-            <p>En esta edición del seminario hemos incluido dos conferenciantes europeos, concretamente de Bélgica y 
-            Noruega. Con su inclusión intentamos mantener un estimulante equilibrio entre las representaciones de Estados 
-            Unidos y las europeas, así como entre directivos de instituciones sanitarias y líderes de pensamiento y 
-            acción.</p>
-
             <p>Con todo ello, los organizadores quieren, de nuevo, aportar su granito de arena para conseguir servicios sanitarios de excelencia, de calidad y seguros</p>
             <p><strong>El comité organizador.</strong></p>
           </div>

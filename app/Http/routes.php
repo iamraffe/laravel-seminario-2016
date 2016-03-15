@@ -37,6 +37,10 @@ Route::get('/registro', 'RegistrationsController@index');
 
 Route::post('/handle-registration', 'RegistrationsController@register');
 
+Route::get('/ponentes', 'SpeakersController@index');
+
+Route::get('/ponentes/{slug}', 'SpeakersController@show');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes

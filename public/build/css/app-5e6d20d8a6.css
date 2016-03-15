@@ -1,10 +1,24 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic");
+@font-face {
+  font-family: 'neo_sansregular';
+  src: url("../../../../fonts/neo_sans-webfont.eot");
+  src: url("../../../../fonts/neo_sans-webfont.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/neo_sans-webfont.woff2") format("woff2"), url("../../../../fonts/neo_sans-webfont.woff") format("woff"), url("../../../../fonts/neo_sans-webfont.ttf") format("truetype"), url("../../../../fonts/neo_sans-webfont.svg#neo_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'neo_sansbold';
+  src: url("../../../../fonts/neo_sans_bold-webfont.eot");
+  src: url("../../../../fonts/neo_sans_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/neo_sans_bold-webfont.woff2") format("woff2"), url("../../../../fonts/neo_sans_bold-webfont.woff") format("woff"), url("../../../../fonts/neo_sans_bold-webfont.ttf") format("truetype"), url("../../../../fonts/neo_sans_bold-webfont.svg#neo_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic");
 .navbar {
   border: none;
   font-size: 13px;
@@ -1317,7 +1331,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "neo_sansregular", Calibri, Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.4;
   color: #222222;
@@ -1399,7 +1413,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "neo_sansregular", Calibri, Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.1;
   color: inherit; }
@@ -5396,7 +5410,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "neo_sansregular", Calibri, Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5509,7 +5523,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "neo_sansregular", Calibri, Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6023,7 +6037,7 @@ html, body {
   color: #4b4f54; }
 
 .aqua, .row.registration form legend h1 {
-  color: #00B1AC !important; }
+  color: #00B2A9 !important; }
 
 .red {
   color: #F05169 !important; }
@@ -6039,7 +6053,7 @@ textarea {
   resize: vertical; }
 
 a {
-  color: #00B1AC; }
+  color: #00B2A9; }
   a:hover {
     color: #039b96;
     text-decoration: none; }
@@ -6098,7 +6112,7 @@ img.logo-seminario {
         #logo-placeholder > .container ul {
           display: none; } }
   #logo-placeholder #logo-seminario {
-    max-width: 45%;
+    max-width: 50%;
     padding: 2.5%;
     float: left; }
     @media (max-width: 1023px) {
@@ -6175,7 +6189,8 @@ footer {
   background-color: transparent; }
   .jumbotron .site-title {
     font-size: 2.75em;
-    font-weight: 300; }
+    font-weight: 300;
+    margin-bottom: 25px; }
     .jumbotron .site-title span {
       font-weight: 800;
       display: block; }
@@ -6248,31 +6263,31 @@ footer {
       border-bottom: 1px solid white; } }
 
 .green-background {
-  background: #00B1AC;
-  color: white;
+  background: #a5cecc;
   font-weight: bold; }
 
 .light-gray-background {
   background: #f5f5f5; }
 
 /* PONENTES OVERALL*/
-.thumb {
+.speakers article {
+  transition: all 1s;
   overflow: hidden;
   margin-bottom: 30px; }
-  .thumb h3 {
+  .speakers article header h1 {
     text-align: center;
     font-size: 1em; }
-  .thumb p {
+  .speakers article header h2 {
     text-align: center;
     font-size: 0.8em; }
-  .thumb a {
+  .speakers article a {
     color: #4b4f54; }
-    .thumb a:hover {
-      color: #00B1AC;
+    .speakers article a:hover {
+      color: #00B2A9;
       text-decoration: none; }
-    .thumb a.thumbnail:hover {
-      border-color: #00B1AC; }
-    .thumb a img {
+    .speakers article a.thumbnail:hover {
+      border-color: #00B2A9; }
+    .speakers article a img {
       width: 400px; }
 
 /*  PONENTES DETAIL */
@@ -6289,33 +6304,38 @@ footer {
       #ponente a.btn {
         display: none; } }
 
-.member {
-  margin-bottom: 50px;
-  overflow: hidden;
-  text-align: center;
-  border: 1px solid #ddd;
-  background-color: #ffffff;
-  padding: 25px;
-  border-radius: 3px;
-  box-shadow: 1px 1px 2px 0px rgba(180, 180, 180, 0.2); }
-  .member h2 {
+.speaker {
+  margin-bottom: 125px; }
+  .speaker .member {
+    margin-bottom: 50px;
+    overflow: hidden;
     text-align: center;
-    margin-top: 25px;
-    font-size: 1.5em;
-    text-transform: uppercase; }
-  .member .member-role {
-    color: #bfbfbf;
-    font-size: 11px;
-    margin-bottom: 10px; }
-  .member p {
-    margin: 0; }
-
-.member-img {
-  margin: -25px -25px 15px -25px; }
-  .member-img img {
-    width: 100%;
-    max-width: 100%;
-    height: auto; }
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 0px rgba(180, 180, 180, 0.2); }
+    .speaker .member h2 {
+      text-align: center;
+      margin-top: 25px;
+      font-size: 1em;
+      text-transform: uppercase; }
+    .speaker .member .member-role {
+      color: #bfbfbf;
+      font-size: 11px;
+      margin-bottom: 10px; }
+    .speaker .member p {
+      margin: 0; }
+  .speaker .member-img {
+    margin: -25px -25px 15px -25px; }
+    .speaker .member-img img {
+      width: 100%;
+      max-width: 100%;
+      height: auto; }
+  .speaker p {
+    line-height: 1.75em;
+    font-size: 0.95em;
+    font-weight: 300; }
 
 /* DIRECCIONES */
 #map {
