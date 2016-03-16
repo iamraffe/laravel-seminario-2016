@@ -16,11 +16,16 @@ Hemos incluido conferenciantes europeos. Manteniendo un equilibrio entre las rep
         <li><span class="fa fa-users"></span> Proyectos</li>
       </ul>
     </header>
-    <section class="col-xs-10 col-xs-offset-1 projects">      
+    <section class="col-xs-10 col-xs-offset-1 projects">   
+      <header>
+        <h1 class="neo-sans-text aqua">
+          Proyectos Ganadores 1ª Edición Premios Quironsalud a las Mejores iniciativas en Seguridad del Paciente
+        </h1>
+      </header>   
       <div class="row project">
           <article class="col-sm-12">
             <header>
-              <h1 class="neo-sans-text aqua">HISTORIAL FARMACOTERAPEUTICO ÚNICO POR PACIENTE EN OSAKIDETZA</h1>      
+              <h1 class="neo-sans-text red">Historial farmacoterapeutico único por paciente en Osakidetza</h1>      
             </header>
               <p>Con el objetivo fundamental de mejorar la seguridad, calidad y uso eficiente del medicamento y reducir los eventos adversos de los medicamentos, se crea en 2011 en el ámbito de la Sanidad Pública Vasca, dentro de la Historia Clínica Única y sustentado en un vademecum único, el Historial Farmacoterapéutico (HFT) único por paciente. </p>
 
@@ -36,7 +41,7 @@ Hemos incluido conferenciantes europeos. Manteniendo un equilibrio entre las rep
       <div class="row project">
           <article class="col-sm-12">
             <header>
-              <h1 class="neo-sans-text aqua">Impacto de la implantación de protocolos de tratamiento con medicamentos de alto riesgo en el paciente crítico. Hospital Universitario Ramón y Cajal.</h1>      
+              <h1 class="neo-sans-text red">Impacto de la implantación de protocolos de tratamiento con medicamentos de alto riesgo en el paciente crítico. Hospital Universitario Ramón y Cajal.</h1>      
               <p>El objetivo del estudio <span class="bold">Impacto de la implantación de protocolos de tratamiento con medicamentos de alto riesgo en el paciente crítico</span>, es disminuir la variabilidad de la práctica clínica en el hospital, aumentando así la seguridad en la utilización de este tipo de fármacos. </p>
               <p>Los medicamentos de alto riesgo son objetivo prioritario de las recomendaciones de mejora de la seguridad clínica desarrolladas por organismos expertos en seguridad del paciente, y la estandarización de su utilización se encuentra entre las prácticas que se recomienda implantar en los hospitales de forma prioritaria. </p>
               <p>Se constituyó un equipo de trabajo multidisciplinar integrado por facultativos del Servicio de Anestesia y Reanimación, Cardiología, Medicina Intensiva, Pediatría, Urgencias, Farmacia y personal de enfermería especializado en Cuidados Intensivos. Se protocolizaron drogas vasoactivas, centralizándose su elaboración en el Servicio de Farmacia. Esta estrategia ha permitido disminuir la variabilidad en la preparación de la medicación en las unidades de enfermería,  minimizar la manipulación de la medicación, disminuyendo así el riesgo de error y mejorando la calidad asistencial. </p>
@@ -47,7 +52,7 @@ Hemos incluido conferenciantes europeos. Manteniendo un equilibrio entre las rep
       <div class="row project">
           <article class="col-sm-12">
             <header>
-              <h1 class="neo-sans-text aqua">Seguridad durante la terapia intravenosa en Neonatología. Hospital General Universitario de Cartagena.</h1>      
+              <h1 class="neo-sans-text red">Seguridad durante la terapia intravenosa en Neonatología. Hospital General Universitario de Cartagena.</h1>      
               <p>La terapia intravenosa constituye uno de los riesgos principales de seguridad a los que se expone un recién nacido durante su ingreso hospitalario. Dos de los problemas principales son las infecciones relacionadas con el uso de catéteres intravenosos y los acontecimientos relacionados con la propia medicación intravenosa administrada, como son los efectos adversos de los fármacos y los errores humanos durante la administración de medicación. El proyecto presentado se planteó en 2 fases y su finalidad fue la de aumentar la seguridad durante la terapia intravenosa en una Unidad de Neonatología de 3er nivel.</p>
               <p>La Fase I iniciada en 2014 tuvo como objetivo la prevención de la sepsis relacionada con el catéter (SRC) a través de un conjunto de intervenciones consensuadas y basadas en la evidencia. Esta fase, ya concluida, consiguió una reducción próxima al 50% en la incidencia de SRC en nuestro entorno. La Fase II, en vías de concluir, pretende aumentar la seguridad durante el proceso de infusión de fármacos por vía intravenosa. Los ejes fundamentales de esta segunda fase fueron la elaboración de una guía de fármacos de uso habitual en neonatología y asociado a ella, la instalación de un software en las bombas de infusión que permitiera detectar errores en distintos puntos de la cadena de prescripción.</p>
             </header>

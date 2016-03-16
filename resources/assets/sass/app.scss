@@ -895,17 +895,23 @@ img.logo-seminario{
     
     .projects{
       padding-bottom: 125px;
+      > header{
+        h1{
+          border-bottom: 1px solid #f6f6f6;
+          padding-bottom: 35px;
+        }
+      }
     }
 
     .project{
       padding-bottom: 50px; 
       header{
         h1{
-          font-size: 2em;
-          text-transform: uppercase;
-          border-bottom: 1px solid #f6f6f6;
-          padding-bottom: 35px;
-          margin-bottom: 50px;
+          font-size: 1.45em;
+          // text-transform: uppercase;
+          // border-bottom: 1px solid #f6f6f6;
+          padding-bottom: 25px;
+          margin-bottom: 15px;
         }
       }
       p{
