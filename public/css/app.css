@@ -6197,6 +6197,8 @@ footer {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 0.65em; }
+    footer p sup {
+      text-transform: lowercase; }
   footer a {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -6348,8 +6350,7 @@ footer {
       font-size: 1em;
       text-transform: uppercase; }
     .speaker .member .member-role {
-      color: #bfbfbf;
-      font-size: 11px;
+      font-size: 12.5px;
       margin-bottom: 10px; }
     .speaker .member p {
       margin: 0; }
@@ -6615,8 +6616,30 @@ fieldset[disabled] .btn-custom.active {
   padding-bottom: 50px; }
   .project header h1 {
     font-size: 1.45em;
+    margin-bottom: 15px;
+    font-weight: bold; }
+  .project header h2 {
+    font-size: 1em; }
+  .project header h3 {
+    border-bottom: 1px solid #f6f6f6;
     padding-bottom: 25px;
-    margin-bottom: 15px; }
+    margin-top: 35px;
+    font-weight: bold;
+    text-align: right; }
+  .project footer {
+    background-color: transparent;
+    color: #4b4f54; }
+    .project footer h1 {
+      font-size: 20px; }
+    .project footer h2 {
+      font-size: 0.75em;
+      margin-top: 25px; }
+    .project footer ul {
+      margin-top: 25px;
+      margin-bottom: 35px; }
+      .project footer ul li {
+        font-size: 0.75em;
+        text-align: left; }
   .project p {
     line-height: 2em;
     font-size: 1em;

@@ -36,7 +36,7 @@ El propósito del seminario es ofrecer a los asistentes la voz de unos ponentes 
             <p>Este año tendremos dos intervenciones de gran relevancia, a cargo de los doctores Charles Vincent y Danielle Ofri, con exposiciones basadas en dos contextos sanitarios bien diferentes, como son el de EEUU y Reino Unido.</p>
             <p>El seminario continuará con una mesa redonda, introducida por la Dra. Itziar Larizgoitia, de la OMS y seguida por las presentaciones de la implantación de los proyectos ganadores de la Primera Edición del Premio a las Mejores Iniciativas de Seguridad del Paciente, concedidos el año pasado.</p>
             <p>Y aprovechamos, al final de la jornada de trabajo, para dar a conocer los ganadores de la 2<sup>ª</sup> Edición del Premio, en este caso organizado conjuntamente por Quirónsalud y la Fundación Quirónsalud.</p>
-            <p>Con todo ello, los organizadores quieren, de nuevo, aportar su granito de arena para conseguir servicios sanitarios de excelencia, de calidad y seguros</p>
+            <p>Con todo ello, los organizadores quieren, de nuevo, aportar su granito de arena para conseguir servicios sanitarios de excelencia, de calidad y seguros.</p>
             <p><strong>El comité organizador.</strong></p>
           </div>
         </div>

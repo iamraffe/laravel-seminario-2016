@@ -44,7 +44,7 @@ Nos centraremos en las estrategias y los programas para mejorar la calidad y la 
                         <p>Directora Corporativa de Asistencia, Calidad e Innovación del Grupo Quirónsalud.</p>
                     </li>
                     <li>
-                        <p class="ponente-name">Dr. D. Raimon Belenes Juárez</p>
+                        <p class="ponente-name">Dr. Raimon Belenes Juárez</p>
                         <p>Director del Seminario Internacional de Seguridad del Paciente y Excelencia Clínica del Grupo Quirónsalud.</p>
                     </li>
                 </ul>
@@ -56,7 +56,7 @@ Nos centraremos en las estrategias y los programas para mejorar la calidad y la 
                 <p>9:30h  - 10:30h</p>
             </div>
             <div class="col-md-9 program-event">
-                <p>1a Conferencia</p>
+                <p>1ª Conferencia</p>
                 <p>Una sanidad más segura; estrategias para el mundo real</p>
             </div>  
         </div>
@@ -79,7 +79,7 @@ Nos centraremos en las estrategias y los programas para mejorar la calidad y la 
                 <p>10:30h - 11:30h</p>
             </div>
             <div class="col-md-9 program-event">
-                <p>2a Conferencia</p>
+                <p>2ª Conferencia</p>
                 <p>Nadie es perfecto: La transparencia mejora la seguridad del paciente</p>
             </div>  
         </div>
@@ -90,7 +90,7 @@ Nos centraremos en las estrategias y los programas para mejorar la calidad y la 
                     <li>
                         <p class="ponente-name">Dra. Danielle Ofri</p>
                         <p>Médico internista en el Hospital de Bellevue y profesora de medicina en la Universidad de Nueva York. </p>
-                        <p>Es además cofundadora y redactora jefe de la revista Bellevue Literary Review. Estados Unidos</p>
+                        <p>Es además cofundadora y redactora jefe de la revista Bellevue Literary Review. Estados Unidos.</p>
                     </li>
                 </ul>
                 <p>Presenta <span class="bold">D. Jaume Raventós Monjo</span>. Director Territorial de Cataluña. Grupo Quirónsalud.</p>
@@ -121,22 +121,22 @@ Nos centraremos en las estrategias y los programas para mejorar la calidad y la 
                 <ul class="lista-ponentes">
                     <li>
                         <p class="ponente-name">Elementos para la mejora de la seguridad de los pacientes en España<br>Dra. Itziar Larizgoitia</p>
-                        <p>Evaluadora Senior en Dirección General de la Organización Mundial de la Salud (OMS), fue coordinadora y responsable del Programa de Investigación en Seguridad del Paciente de la OMS. Suiza </p>
+                        <p>Evaluadora Senior en Dirección General de la Organización Mundial de la Salud (OMS), fue coordinadora y responsable del Programa de Investigación en Seguridad del Paciente de la OMS. Suiza. </p>
                     </li>
                 </ul>
                 <p class="programa-subtitle">Presentación de los proyectos ganadores.</p>
                 <ul class="lista-ponentes">
                     <li>
                         <p class="ponente-name">Historial farmacoterapéutico único por paciente en Osakidetza.<br>Dra. Teresa Madrid Conde</p>
-                        <p>Técnico de la Subdirección de Calidad e Información</p><p>Sanitaria. Osakidetza. Bilbao </p>
+                        <p>Técnico de la Subdirección de Calidad e Información Sanitaria. Osakidetza. Bilbao. </p>
                     </li>           
                     <li>
                         <p class="ponente-name">Impacto de la implantación de protocolos de tratamiento con medicamentos de alto riesgo en el paciente crítico. <br>Dra. Teresa Bermejo Vicedo</p>
-                        <p>Jefe del Servicio de Farmacia Hospital Ramón y Cajal, Madrid</p>
+                        <p>Jefe del Servicio de Farmacia Hospital Ramón y Cajal, Madrid.</p>
                     </li>                           
                     <li>
                         <p class="ponente-name">Seguridad sobre la terapia intravenosa en neonatología. <br>Dr. José Luis Leante Castellanos</p>
-                        <p>Jefe de Sección de Neonatología del Hospital General Universitario Santa Lucía de Cartagena. Murcia</p>
+                        <p>Jefe de Sección de Neonatología del Hospital General Universitario Santa Lucía de Cartagena. Murcia.</p>
                     </li>
                 </ul>
                 <p>Moderador: <span class="bold">Dra. Celia García Menéndez</span>, Directora de Calidad y Seguridad del Paciente. Grupo Quirónsalud.</p>

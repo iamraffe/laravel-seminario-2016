@@ -303,6 +303,9 @@ img.logo-seminario{
       text-transform: uppercase;
       letter-spacing: 2px;
       font-size: 0.65em;
+      sup{
+        text-transform: lowercase;
+      }
     }
     a{
       text-transform: uppercase;
@@ -552,8 +555,8 @@ img.logo-seminario{
             }
 
             .member-role{
-              color:#bfbfbf;
-              font-size:11px;
+              // color:#bfbfbf;
+              font-size:12.5px;
               margin-bottom:10px;
             }
             p{
@@ -910,8 +913,40 @@ img.logo-seminario{
           font-size: 1.45em;
           // text-transform: uppercase;
           // border-bottom: 1px solid #f6f6f6;
-          padding-bottom: 25px;
+          // padding-bottom: 25px;
           margin-bottom: 15px;
+          font-weight: bold;
+        }
+        h2{
+          font-size: 1em;
+        }
+        h3{
+          border-bottom: 1px solid #f6f6f6;
+          padding-bottom: 25px;
+          margin-top: 35px;
+          font-weight: bold;
+          text-align: right;
+        }
+      }
+      footer{
+        background-color: transparent;
+        color: $gray-main;
+        
+        h1{
+          font-size: 20px;
+        }
+        h2{
+          font-size: 0.75em;
+          margin-top: 25px;
+        }
+
+        ul{
+          margin-top: 25px;
+          margin-bottom: 35px;
+          li{
+            font-size: 0.75em;
+            text-align: left;
+          }
         }
       }
       p{
