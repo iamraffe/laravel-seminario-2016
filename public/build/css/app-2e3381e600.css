@@ -6055,7 +6055,8 @@ button.close {
 html, body {
   margin: 0;
   padding: 0;
-  color: #4b4f54; }
+  color: #4b4f54;
+  overflow-x: hidden; }
 
 .neo-sans-text {
   font-family: 'neo_sansregular' !important; }
@@ -6182,10 +6183,15 @@ img.logo-seminario {
           left: 42.5%; } }
 
 @media (max-width: 767px) {
+  .navbar-default {
+    background-color: white; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #00B2A9; }
   #navbar-primary.navbar-default .navbar-nav {
     margin: 0 auto; }
     #navbar-primary.navbar-default .navbar-nav > li {
-      display: block; } }
+      display: block;
+      background-color: #00B2A9; } }
 
 footer {
   padding: 20px;
@@ -6618,8 +6624,14 @@ fieldset[disabled] .btn-custom.active {
     font-size: 1.45em;
     margin-bottom: 15px;
     font-weight: bold; }
+    @media (max-width: 767px) {
+      .project header h1 {
+        font-size: 1.25em; } }
   .project header h2 {
     font-size: 1em; }
+    @media (max-width: 767px) {
+      .project header h2 {
+        font-size: 0.9em; } }
   .project header h3 {
     border-bottom: 1px solid #f6f6f6;
     padding-bottom: 25px;
@@ -6631,15 +6643,26 @@ fieldset[disabled] .btn-custom.active {
     color: #4b4f54; }
     .project footer h1 {
       font-size: 20px; }
+      @media (max-width: 767px) {
+        .project footer h1 {
+          font-size: 16px;
+          text-align: left !important; } }
     .project footer h2 {
       font-size: 0.75em;
       margin-top: 25px; }
+      @media (max-width: 767px) {
+        .project footer h2 {
+          font-size: 0.65em;
+          text-align: left !important; } }
     .project footer ul {
       margin-top: 25px;
       margin-bottom: 35px; }
       .project footer ul li {
         font-size: 0.75em;
         text-align: left; }
+        @media (max-width: 767px) {
+          .project footer ul li {
+            font-size: 0.65em; } }
   .project p {
     line-height: 2em;
     font-size: 1em;

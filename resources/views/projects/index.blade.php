@@ -16,7 +16,7 @@ Hemos incluido conferenciantes europeos. Manteniendo un equilibrio entre las rep
         <li><span class="fa fa-book"></span> Proyectos</li>
       </ul>
     </header>
-    <section class="col-xs-10 col-xs-offset-1 projects">   
+    <section class="col-sm-10 col-sm-offset-1 projects">   
       <header>
         <h1 class="neo-sans-text aqua">
           Proyectos Ganadores I Edición Premios Quirónsalud a las Mejores iniciativas en Seguridad del Paciente
