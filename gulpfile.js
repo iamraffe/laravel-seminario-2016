@@ -23,4 +23,6 @@ elixir(function(mix) {
     mix.copy('resources/assets/javascript/admin/vendor.js', 'public/js/admin/vendor.js');
 
     mix.copy('resources/assets/fonts', 'public/build/css/fonts');
+
+    mix.copy('resources/assets/fonts', 'public/fonts');
 });

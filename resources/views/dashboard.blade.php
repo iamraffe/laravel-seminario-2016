@@ -14,7 +14,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body class="fixed sidebar-mini skin-purple">
+    <body class="fixed sidebar-mini skin-black">
 
         @if (Session::get('flash_notification.overlay'))
             <div id="flash-overlay-modal" class="modal fade {{ $modalClass or '' }}">

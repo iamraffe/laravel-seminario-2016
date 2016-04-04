@@ -1,6 +1,6 @@
 <header class="main-header">
     <!-- Logo -->
-    <a href="{{ url('/admin') }}" class="logo"><span class="logo-mini"></span>SE<span class="logo-lg">Seminario</span></a>
+    <a href="{{ url('/admin') }}" class="logo"><span class="logo-mini"><img src="/img/favicon.png" style="max-height: 35px;"></span><span class="logo-lg"><img src="/img/seminario_2016.png" style="max-height: 35px;"></span></a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top" role="navigation">
         <!-- Sidebar toggle button-->
