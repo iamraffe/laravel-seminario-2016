@@ -12,5 +12,15 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('app.scss').version('css/app.css');
+    mix.sass('app.scss');
+
+    mix.less(["admin/admin.less"], "public/css/admin/all.css").version(['public/css/app.css', "public/css/admin/all.css"]);
+
+    mix.scripts(["jquery.min.js", "bootstrap.min.js", "jquery.easing.min.js", "classie.js", "cbpAnimatedHeader.js", "jqBootstrapValidation.js", "contact_me.js", "agency.js"], "public/js", "resources/assets/javascript");
+
+    mix.copy('resources/assets/javascript/admin/custom.js', 'public/js/admin/custom.js');
+
+    mix.copy('resources/assets/javascript/admin/vendor.js', 'public/js/admin/vendor.js');
+
+    mix.copy('resources/assets/fonts', 'public/build/css/fonts');
 });

@@ -61,5 +61,18 @@ Route::group(['middleware' => ['web']], function () {
   Route::get('/ponentes/{slug}', 'SpeakersController@show');
 
   Route::get('/proyectos', 'ProjectsController@index');
-    
+
+  /*
+  
+  ADMIN AREA - BACKEND ROUTES
+
+   */
+
+  Route::get('admin', ['middleware' => 'auth', 'uses' => 'AdminController@index']);
+
+  Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function()
+  {
+
+  });
+
 });
