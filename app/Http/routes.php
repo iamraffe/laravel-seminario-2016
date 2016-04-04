@@ -11,37 +11,7 @@
 |
 */
 
-/*
 
-STATIC
-
- */
-
-Route::get('/', "PagesController@index");
-
-Route::get('/programa', "PagesController@programa");
-
-Route::get('/premios', "PagesController@premios");
-
-Route::get('/como-llegar', "PagesController@como_llegar");
-
-Route::get('/terms-and-conditions', "PagesController@terms_and_conditions");
-
-/*
-
-DYNAMIC
-
- */
-
-Route::get('/registro', 'RegistrationsController@index');
-
-Route::post('/handle-registration', 'RegistrationsController@register');
-
-Route::get('/ponentes', 'SpeakersController@index');
-
-Route::get('/ponentes/{slug}', 'SpeakersController@show');
-
-Route::get('/proyectos', 'ProjectsController@index');
 
 /*
 |--------------------------------------------------------------------------
@@ -55,5 +25,41 @@ Route::get('/proyectos', 'ProjectsController@index');
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+
+  Route::auth();
+
+  Route::get('/home', 'PagesController@index');
+
+  /*
+
+  STATIC
+
+   */
+
+  Route::get('/', "PagesController@index");
+
+  Route::get('/programa', "PagesController@programa");
+
+  Route::get('/premios', "PagesController@premios");
+
+  Route::get('/como-llegar', "PagesController@como_llegar");
+
+  Route::get('/terms-and-conditions', "PagesController@terms_and_conditions");
+
+  /*
+
+  DYNAMIC
+
+   */
+
+  Route::get('/registro', 'RegistrationsController@index');
+
+  Route::post('/handle-registration', 'RegistrationsController@register');
+
+  Route::get('/ponentes', 'SpeakersController@index');
+
+  Route::get('/ponentes/{slug}', 'SpeakersController@show');
+
+  Route::get('/proyectos', 'ProjectsController@index');
+    
 });
