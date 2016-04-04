@@ -36,6 +36,7 @@ En esta sección podrá inscribirse para participar en la segunda edición del s
         <form class="form-horizontal" action="{{ url('handle-registration') }}" method="POST">
           <fieldset>
             <legend><h1 class="neo-sans-text">Inscripción</h1></legend>
+            {{ csrf_field() }}
             <div class="form-group">
               <label for="nombre" class="col-sm-3 control-label">Nombre</label>
               <div class="col-sm-9">

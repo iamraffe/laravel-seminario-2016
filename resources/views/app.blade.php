@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
+    <meta name="_token" content="{!! csrf_token() !!}"/>
     @yield('styles')
     <!-- CSS -->
 
