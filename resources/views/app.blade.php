@@ -78,8 +78,20 @@
     <footer>
         <div class="container">
             <div class="row">
-        <p>© 3<sup>er</sup> Seminario Internacional de Seguridad del Paciente y Excelencia Clínica</p>
-        <a href="{{ url('/terms-and-conditions') }}">Condiciones de uso</a>
+                <div class="col-xs-12">
+                    <p class="text-center">© 3<sup>er</sup> Seminario Internacional de Seguridad del Paciente y Excelencia Clínica</p>
+                    <div class="row" style="margin-top: 15px; padding: 15px 15px 0 15px;">
+                        <div class="col-md-4">
+                            <p class="text-center text-lowercase" style="margin: 0; line-height: 26px;"><span class="fa fa-envelope"></span> seminario.excelencia@quironsalud.es</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center" style="margin: 0; line-height: 26px;"><span class="fa fa-phone"></span> 913981628</p>
+                        </div>  
+                        <div class="col-md-4">
+                            <a href="{{ url('/terms-and-conditions') }}" class="">Condiciones de uso</a>
+                        </div>                      
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
