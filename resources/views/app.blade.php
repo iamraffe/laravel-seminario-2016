@@ -77,30 +77,33 @@
         @yield('content')
     </div> <!-- ./container -->
 
-    <footer style=" border-top: 2px solid #303336; padding-left: 0; padding-right: 0; padding-bottom: 0;">
+    <footer style="">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="row" style="margin-top: 15px; padding: 0px 15px 0px 15px;">
+                    <div class="row contact-data" style="">
                         <div class="col-md-4">
-                            <p class="text-center text-lowercase" style="margin: 0; line-height: 26px;"><span class="fa fa-envelope"></span> seminario.excelencia@quironsalud.es</p>
+                            <p class="text-center text-lowercase email" style=""><span class="fa fa-envelope"></span> seminario.excelencia@quironsalud.es</p>
                         </div>
                         <div class="col-md-4">
-                            <p class="text-center" style="margin: 0; line-height: 26px;"><span class="fa fa-phone"></span> 913981628</p>
+                            <p class="text-center phone" style=""><span class="fa fa-phone"></span> 913981628</p>
                         </div>  
                         <div class="col-md-4">
-                            <a href="{{ url('/terms-and-conditions') }}" class="">Condiciones de uso</a>
-                        </div>                      
+                            <a href="https://twitter.com/hashtag/QuironsaludSegPac?src=hash" class="text-center hashtag" target="_blank" style=""><span class="fa fa-hashtag"></span>QuironsaludSegPac</a>
+                        </div>  
                     </div>
                     
                 </div>
             </div>
         </div>
-        <div class="container-fluid" style="border-top: 2px solid #cd1839; background-color: #E94462; padding: 25px 0 25px 0;margin-top: 35px;">
+        <div class="container-fluid copy-wrapper" style="">
             <div class="row">
                 <div class="col-xs-12">
-                    <p class="text-center" style="padding: 45px; margin-bottom: 0; font-size: 0.75em;">© 3<sup>er</sup> Seminario Internacional de Seguridad del Paciente y Excelencia Clínica</p>
+                    <p class="text-center copy" style="">© 3<sup>er</sup> Seminario Internacional de Seguridad del Paciente y Excelencia Clínica</p>
                 </div>
+                <div class="col-xs-12 terms-and-conditions">
+                    <a href="{{ url('/terms-and-conditions') }}">Condiciones de uso</a>
+                </div> 
             </div>
         </div>
     </footer>

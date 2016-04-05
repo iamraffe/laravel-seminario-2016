@@ -6256,11 +6256,12 @@ img.logo-seminario {
       background-color: #00B2A9; } }
 
 footer {
-  padding: 20px;
+  padding: 20px 0 0 0;
   background-color: #4b4f54;
   color: white;
   text-align: center;
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  border-top: 2px solid #303336; }
   footer p {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -6270,7 +6271,36 @@ footer {
   footer a {
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 0.5em; }
+    font-size: 0.65em;
+    color: white; }
+    footer a.hashtag {
+      font-size: 0.65em;
+      margin: 0;
+      line-height: 26px;
+      text-transform: initial; }
+  footer .copy {
+    padding: 45px 0 15px 0;
+    margin-bottom: 0;
+    font-size: 0.75em; }
+  footer .terms-and-conditions {
+    padding: 15px 0 25px 0;
+    color: white; }
+    footer .terms-and-conditions a:hover {
+      color: #3d050e; }
+  footer .copy-wrapper {
+    border-top: 2px solid #cd1839;
+    background-color: #E94462;
+    padding: 25px 0 25px 0;
+    margin-top: 35px; }
+  footer .contact-data {
+    margin-top: 15px;
+    padding: 0px 15px 0px 15px; }
+    footer .contact-data .email {
+      margin: 0;
+      line-height: 26px; }
+    footer .contact-data .phone {
+      margin: 0;
+      line-height: 26px; }
 
 /* HOME */
 .jumbotron {

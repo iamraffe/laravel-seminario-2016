@@ -309,11 +309,13 @@ img.logo-seminario{
     }
   }
   footer{
-    padding: 20px;
+    padding: 20px 0 0 0;
     background-color: $gray-main;
     color: white;
     text-align: center;
     font-size: 1.25em;
+    border-top: 2px solid #303336;
+
     p{
       text-transform: uppercase;
       letter-spacing: 2px;
@@ -325,8 +327,47 @@ img.logo-seminario{
     a{
       text-transform: uppercase;
       letter-spacing: 2px;
-      font-size: 0.5em;
+      font-size: 0.65em;
+      color: white;
+
+      &:hover{
+
+      }
+
+      &.hashtag{
+        font-size: 0.65em; margin: 0; line-height: 26px; text-transform: initial;
+      }
     }  
+
+    .copy{
+      padding: 45px 0 15px 0; margin-bottom: 0; font-size: 0.75em;
+    }
+    .terms-and-conditions{
+      padding: 15px 0 25px 0;
+      color: white;
+
+      a{
+        &:hover{
+          color: darken($red, 50%);
+        }
+      }
+    }
+
+    .copy-wrapper{
+      border-top: 2px solid #cd1839; background-color: #E94462; padding: 25px 0 25px 0;margin-top: 35px;
+    }
+
+    .contact-data{
+      margin-top: 15px; padding: 0px 15px 0px 15px;
+
+      .email{
+        margin: 0; line-height: 26px;
+      }
+      .phone{
+        margin: 0; line-height: 26px;
+      }
+    }
+
   }
 
     /* HOME */
