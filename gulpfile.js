@@ -16,7 +16,7 @@ elixir(function(mix) {
 
     mix.less(["admin/admin.less"], "public/css/admin/all.css").version(['public/css/app.css', "public/css/admin/all.css"]);
 
-    mix.scripts(["jquery.min.js", "bootstrap.min.js", "jquery.easing.min.js", "classie.js", "cbpAnimatedHeader.js", "jqBootstrapValidation.js", "contact_me.js", "agency.js"], "public/js", "resources/assets/javascript");
+    mix.scripts(["jquery.min.js", "bootstrap.min.js", "outdatedbrowser.js", "custom.js"], "public/js", "resources/assets/javascript");
 
     mix.copy('resources/assets/javascript/admin/custom.js', 'public/js/admin/custom.js');
 

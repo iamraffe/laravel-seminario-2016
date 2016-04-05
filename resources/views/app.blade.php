@@ -32,6 +32,7 @@
     <![endif]-->
 </head>
 <body>
+    <div id="outdated"></div>
     <div class="container-fluid">
         <header role="banner">
             <div id="logo-placeholder">
@@ -103,8 +104,7 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="/js/all.js"></script>
     @yield('javascript')
         <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
     <script type="text/javascript">
