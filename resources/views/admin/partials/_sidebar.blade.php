@@ -37,7 +37,7 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="{{ url('/admin/pdf-download') }}"><i class="fa fa-file-pdf-o"></i> Descargar PDF</a></li>
-                    <li><a href="{{ url('/admin/excel-download') }}"><i class="fa fa-file-excel-o"></i> Descargar Excel</a></li>
+                    <li><a href="{{ url('/admin/exports/excel') }}"><i class="fa fa-file-excel-o"></i> Descargar Excel</a></li>
                 </ul>
             </li>
             <li><a href="{{ url('/') }}"><i class="fa fa-chevron-left"></i> Volver a la web</a></li>

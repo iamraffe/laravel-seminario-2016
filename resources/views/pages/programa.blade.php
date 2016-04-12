@@ -70,7 +70,7 @@ Nos centraremos en las estrategias y los programas para mejorar la calidad y la 
                         <p>Fue director del National Institute of Health Research Centre for Patient Safety &amp; Service Quality del Imperial College de Londres. Reino Unido.</p>
                     </li>
                 </ul>
-                <p>Presenta el <span class="bold">Dr. Javier Guerra Blanco</span>, Director Médico del Hospital Universitario Fundación Jiménez Díaz·Grupo Quirónsalud.</p>
+                <p>Presenta el <span class="bold">Dr. Javier Guerra Aguirre</span>, Director Médico del Hospital Universitario Fundación Jiménez Díaz·Grupo Quirónsalud.</p>
             </div>  
         </div>
 

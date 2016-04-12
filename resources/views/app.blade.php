@@ -41,6 +41,7 @@
                       <img id="logo-seminario" src="/img/seminario_2016.png" alt="2do Seminario Internacional de Seguridad del Paciente y Excelencia Clínica">
                     </a>
                     <ul class="right">
+                      <li><span style="vertical-align: 5px; margin-right: 7.5px;"></span> <img src="/img/logo_quironsalud.png" alt="Logo Quirónsalud" style="max-height: 50px;"></li>
                       <li>Jueves, 5 de mayo de 2016</li>
                       <li>Hospital Universitario Fundación Jiménez Díaz (Madrid-España)</li>
                     </ul>
