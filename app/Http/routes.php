@@ -73,6 +73,7 @@ Route::group(['middleware' => ['web']], function () {
   Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function()
   {
     Route::get('exports/excel', 'AdminController@export_excel');
+    Route::get('exports/pdf', 'AdminController@export_pdf');
   });
 
 });

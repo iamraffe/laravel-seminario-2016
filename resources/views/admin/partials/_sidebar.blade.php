@@ -36,7 +36,7 @@
                 <span>Inscripciones</span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="{{ url('/admin/pdf-download') }}"><i class="fa fa-file-pdf-o"></i> Descargar PDF</a></li>
+                    <li><a href="{{ url('/admin/exports/pdf') }}"><i class="fa fa-file-pdf-o"></i> Descargar PDF</a></li>
                     <li><a href="{{ url('/admin/exports/excel') }}"><i class="fa fa-file-excel-o"></i> Descargar Excel</a></li>
                 </ul>
             </li>

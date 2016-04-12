@@ -39,4 +39,14 @@ class AdminController extends Controller
       })->download('xlsx');
 
     }
+
+    public function export_pdf(){
+
+      $users = Registration::all();
+
+      $pdf = \PDF::loadView('exports.pdf', ['users' => $users]);
+
+      return $pdf->setPaper('a4', 'landscape')->download('registros_seminario_2016_'.Carbon::now()->format('d.m_H.i.s').'.pdf');
+
+    }
 }
