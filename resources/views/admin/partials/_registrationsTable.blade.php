@@ -33,7 +33,7 @@
                     <td>{{ $registration->ciudad }}</td>
                     <td>{{ $registration->centro }}</td>
                     <td>{!! $registration->cargo !!}</td>
-                    <td>{{ $registration->created_at->format('j/m H:i') }}</td>
+                    <td>{!! $registration->created_at->format('j/m H:i') !!}</td>
                   </tr>
               @endforeach
             @endif

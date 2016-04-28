@@ -28,6 +28,8 @@ Dashboard |
 @section('scripts')
     <script type="text/javascript">
         $(function () {
+            console.log($.fn.dataTable.moment( 'D/MM HH:mm' ))
+            $.fn.dataTable.moment( 'D/MM HH:mm' );
             $('#registrations').DataTable({
               "paging": true,
               "lengthChange": true,

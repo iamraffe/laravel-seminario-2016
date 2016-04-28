@@ -148,7 +148,7 @@ Nos centraremos en las estrategias y los programas para mejorar la calidad y la 
                 <p>14:00h - 14:30h</p>
             </div>
             <div class="col-md-9 program-event">
-                <p>Clausura y entrega del Premio a la Mejores Iniciativas en Seguridad del Paciente II Edición</p>
+                <p>Clausura y entrega del Premio Quirónsalud a la Mejores Iniciativas en Seguridad del Paciente II Edición</p>
             </div>  
         </div>
         <div class="row light-gray-background program-entry">
